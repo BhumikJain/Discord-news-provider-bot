@@ -1,7 +1,7 @@
 
 # Discord News Bot
 
-"Discord News Bot is a simple yet effective bot designed to keep your Discord community updated with the latest news. It delivers curated news briefings to ensure that your server members stay informed about important topics. Customize news sources and engage your community with timely updates!"
+Discord News Bot is a simple yet effective bot designed to keep your Discord community updated with the latest news. It delivers curated news briefings to ensure that your server members stay informed about important topics. Customize news sources and engage your community with timely updates!
 
 
 ## Wanna try our project ?
