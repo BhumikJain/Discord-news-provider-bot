@@ -32,37 +32,35 @@ Install dependencies
 Run the server
 
 ```bash
-  
+  npm run dev
 ```
 
 ## Screenshots
 
-![Sample](https://github.com/user-attachments/assets/0056ab88-8b6c-4102-b98b-6817886e0817)
+<!-- ![Sample]() -->
+WILL UPLOAD SOON
 
 ## FAQ
 
-#### How does our password generator work?
+#### How does our discord news provider bot work?
 
-Our password generator employs a unique, proprietary algorithm that produces highly secure, unpredictable passwords. The algorithm is designed to generate random character sequences that are difficult to guess or crack.
+Our Discord News Provider bot connects to your Discord server using Discord.js and fetches the latest news from configured sources via APIs. It uses node-cron to schedule updates, sending formatted news messages to designated channels at specified times. Users can also interact with the bot through commands to request updates or specific topics, keeping your community informed effortlessly.
 
-#### Why is our password generator more secure than others?
+#### Why is our discord news provider bot better than others?
 
+Our Discord News Provider stands out due to its customizable news sources, ensuring that users receive content relevant to their interests. With scheduled updates twice daily, it keeps your community consistently informed without manual effort. The bot is user-friendly, allowing easy interaction through commands, and is built using robust technologies like Discord.js and node-cron for reliability. This combination of customization, convenience, and engagement makes our bot a superior choice for staying updated.
 
-Our generator sets itself apart by utilizing a custom-built algorithm that is not widely available or easily replicated. This ensures that your passwords remain protected from potential vulnerabilities found in common password generation methods.
+#### Is my personal information used in the discord news provider bot?
 
-#### Is my personal information used in the password generation process?
+No, your personal information is not used in the Discord News Provider bot. The bot operates solely by fetching news from external sources and does not collect or store any user data. It respects user privacy and focuses only on delivering news updates to the community.
 
-No, we do not collect or store any personal information during the password generation process. Your privacy is our top priority.
+#### Can I customize the News, time  and complexity?
 
-#### Can I customize the password length and complexity?
+Yes, you can customize the news sources, scheduling times, and complexity of the updates in the Discord News Provider bot. You can configure which news APIs to pull from, set specific times for updates, and adjust how the news is formatted to match your community’s preferences. This flexibility allows you to tailor the bot to meet your specific needs.
 
-Yes, our generator allows you to customize the length and complexity of your passwords to meet your specific security needs. You can choose from a variety of options to create passwords that are both strong and easy to remember.
 ## Authors
 
-- [Raja-Debnath](https://github.com/Raja-Debnath)
 - [Bhumik-Jain](https://github.com/therealcheemda)
-- [Ayush-Tiwari](https://github.com/Mr-Ayushh)
-
 
 ## Badges
 
