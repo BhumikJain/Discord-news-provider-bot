@@ -27,14 +27,15 @@ client.once('ready', () => {
     channelIds.forEach(channelId => {
         const channel = client.channels.cache.get(channelId);
         if (channel) {
-            channel.send('Hello World! I am a news provider bot made by CHEEMDA MAN! 🎉')
+            channel.send('Hello World! I am a Testing bot made by CHEEMDA MAN! 🎉')
                 .catch(error => console.error(`Error sending message to channel ${channelId}:`, error));
         } else {
             console.error(`Channel with ID ${channelId} not found!`);
         }
     });
+
     // Schedule daily news
-    cron.schedule('0 8,19 * * *', async () => {
+    cron.schedule('0 7,19 * * *', async () => {
         const businessChannel = client.channels.cache.get(CHANNELS.business);
         const entertainmentChannel = client.channels.cache.get(CHANNELS.entertainment);
         const generalChannel = client.channels.cache.get(CHANNELS.general);
@@ -141,7 +142,7 @@ client.once('ready', () => {
         } else {
             console.error('World channel not found!');
         }
- 
+
     });
 });
 

@@ -9,10 +9,17 @@ async function fetchSportsNews(channel) {
 
     if (!articles.length) return ['No sports news available today.'];
 
-    for (const article of articles) {
-        await channel.send(`**${article.title}**\n${article.url}\n`);
-        // Wait for 2 seconds before sending the next article
-        await new Promise(resolve => setTimeout(resolve, 2000));
+    // Send the header before the articles
+    await channel.send('# TODAY\'S NEWS\n');
+
+    for (let index = 0; index < articles.length; index++) {
+        const article = articles[index];
+        const title = article.title;
+
+        await channel.send(`**${index + 1}. ${title}** **[Click here to know more](${article.url})**\n`);
+
+        // Wait for 1 seconds before sending the next article
+        await new Promise(resolve => setTimeout(resolve, 1000));
     }
 }
 
